@@ -35,3 +35,5 @@ build/
 /documentation/
 /pages/
 /assets/assets/
+/src/main/resources/static/assets/
+/src/main/resources/static/documentation/
