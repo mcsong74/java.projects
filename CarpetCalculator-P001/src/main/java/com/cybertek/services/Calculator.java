@@ -33,7 +33,9 @@ public class Calculator  {
     @Value("${floorType}")
     private String floorType;
 
-    public Calculator(@Qualifier("carpetPriceInTX") Carpet txPrice, @Qualifier("carpetPriceInVA") Carpet vaPrice, @Qualifier("bedroom") Floor bedRoom, Floor kitchen, Floor livingRoom) {
+    public Calculator(@Qualifier("carpetPriceInTX") Carpet txPrice, @Qualifier("carpetPriceInVA") Carpet vaPrice,
+                      @Qualifier("bedroom") Floor bedRoom, @Qualifier("kitchen") Floor kitchen,
+                      @Qualifier("livingRoom") Floor livingRoom) {
         this.txPrice = txPrice;
         this.vaPrice = vaPrice;
         this.bedRoom = bedRoom;

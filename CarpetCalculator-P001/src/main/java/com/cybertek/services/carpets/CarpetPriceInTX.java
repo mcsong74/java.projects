@@ -2,11 +2,7 @@ package com.cybertek.services.carpets;
 
 import com.cybertek.enums.City;
 import com.cybertek.interfaces.carpetPrice.Carpet;
-import com.sun.xml.internal.ws.api.FeatureListValidatorAnnotation;
-import org.springframework.beans.TypeMismatchException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;

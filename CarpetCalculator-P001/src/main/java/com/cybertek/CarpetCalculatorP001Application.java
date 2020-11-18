@@ -24,6 +24,13 @@ public class CarpetCalculatorP001Application {
 
 		System.out.println(City.values());;
 
+
+		
+
+
+
+
+
 //		System.out.println(unitPrice.getCarpetPrice(City.DALLAS));
 //		System.out.println(City.DALLAS);r
 //		String State="TX";
