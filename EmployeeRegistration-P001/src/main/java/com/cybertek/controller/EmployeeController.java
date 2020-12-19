@@ -29,8 +29,8 @@ public class EmployeeController {
 
     @PostMapping("/employeelist")
     public String postEmployeeInfo(@ModelAttribute("employee") Employee employee){
-        LocalDate ldate=LocalDate.parse(employee.getBirthday());
-        employee.setAge(Period.between(ldate, LocalDate.now()).getYears());
+//        LocalDate ldate=LocalDate.parse(employee.getBirthday());
+        employee.setAge(Period.between(LocalDate.parse(employee.getBirthday()), LocalDate.now()).getYears());
         System.out.println(employee.toString());
         return "/employee/employee-list-table";
     }
